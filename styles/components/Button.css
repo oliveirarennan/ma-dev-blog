@@ -1,0 +1,14 @@
+.button{
+  background-color: #FF6464;
+  color: var(--text-secondary);
+  border-radius: 2px;
+  padding: 16px 20px;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.8125rem;
+  transition: ease 700ms;
+
+}
+.button:hover{
+  filter: brightness(.9);
+}

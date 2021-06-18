@@ -1,0 +1,51 @@
+.portfolio{
+  width: 100%;
+  padding: 20px;
+}
+.portfolio__img{
+  width: 339px;
+  height: 230px;
+  border-radius: 6px;
+  border: 2px solid #8573EB;
+}
+
+.portfolio__title{
+  text-align: left;
+  margin-top: 16px;
+  font-size: 1,.5rem;
+  font-weight: 700;
+  line-height:1.875rem;
+}
+.portfolio__data{
+  margin-top: 16px;
+
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.portfolio__data-time{
+  font-weight:900;
+  line-height: 3.75rem;
+  background-color: #142850;
+  color: #fff;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 16px;
+}
+.portfolio__data-type{
+  line-height: 1.4375rem;
+  color: #8695A4;
+  
+}
+
+.portfolio__text{
+  margin-top: 16px;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.portfolio__divider{
+  margin-top: 16px;
+  border: 1px solid #E0E0E0;
+}

@@ -1,0 +1,67 @@
+@import "../utils/index.css";
+@import "../components/HeaderMenu.css";
+@import "../components/Profile.css";
+@import "../components/Button.css";
+@import "../components/Post.css";
+@import "../components/Portfolio.css";
+@import "../components/SocialMenu.css  ";
+
+.container{
+  width: 100vw;
+}
+
+#profile{
+  margin-top: 33px;
+}
+
+#profile .button{
+  margin-top: 27px;
+  margin-bottom: 40px;
+}
+
+#blog-posts{
+  background-color: var(--bg-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+#blog-posts h1{
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 15px;
+  
+}
+
+#portfolio{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+#portfolio h1{
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#social-menu{
+  margin-top: 150px;
+  text-align: center;
+}
+
+.footer{
+  margin-top: 24px;
+  margin-bottom: 48px;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+  text-align: center;
+  line-height: 1.3125rem;
+}

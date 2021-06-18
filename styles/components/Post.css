@@ -1,0 +1,34 @@
+.post{
+  width: 93vw;
+  background-color: var(--bg-primary);
+  padding: 12px 20px;
+  border-radius: 4px;
+  
+}
+.post__title{
+  color: var(--text-primary);
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+}
+
+.post__data{
+  color: var(--text-primary);
+  margin-top: 12px;
+  display: flex;
+  gap: 24px;
+}
+
+.post__data-time{
+  line-height: 1.4375rem;
+}
+.post__data-pipe{
+  height: 21px;
+  border: 1px solid #000000;
+}
+.post__text{
+  margin-top: 20px;
+  line-height: 1.4375rem;
+  color: var(--text-primary);
+
+}
