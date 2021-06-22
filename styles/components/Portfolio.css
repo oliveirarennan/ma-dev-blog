@@ -1,6 +1,7 @@
 .portfolio{
-  width: 100%;
+  width: 90vw;
   padding: 20px;
+  margin: 0 auto;
 }
 .portfolio__img{
   width: 339px;
@@ -26,7 +27,6 @@
 
 .portfolio__data-time{
   font-weight:900;
-  line-height: 3.75rem;
   background-color: #142850;
   color: #fff;
   padding-left: 12px;
@@ -48,4 +48,17 @@
 .portfolio__divider{
   margin-top: 16px;
   border: 1px solid #E0E0E0;
+  opacity: .5;
+  width: 85vw;
+  align-self: center;
+}
+
+@media (min-width: 992px){
+  .portfolio__img{
+    width: 246px;
+    height: 180px;
+  }
+  .portfolio__divider{
+    margin-top: 1px;
+  }
 }

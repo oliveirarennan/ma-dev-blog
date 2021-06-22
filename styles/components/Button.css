@@ -12,3 +12,10 @@
 .button:hover{
   filter: brightness(.9);
 }
+
+@media (min-width: 992px) {
+  .button{
+    padding: 16px 32px;
+
+  }
+}

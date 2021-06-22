@@ -23,9 +23,7 @@
   background-color: var(--bg-secondary);
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  align-items: center;
-  padding-bottom: 30px;
+  align-items: center; 
 }
 
 #blog-posts h1{
@@ -33,11 +31,17 @@
   font-weight: 400;
   text-align: center;
   padding-top: 15px;
-  
+  padding-bottom: 15px;
+}
+.posts{
+  margin-bottom: 30px;
+}
+.post{
+  margin-bottom: 15px;
 }
 
 #portfolio{
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,4 +68,55 @@
   color: var(--text-primary);
   text-align: center;
   line-height: 1.3125rem;
+}
+
+@media (min-width: 992px){
+  .container{
+    width: 90vw;
+    margin: 0 auto;
+  }
+  #profile .button{
+    margin-top: 47px;
+    margin-bottom: 78px;
+  }
+  #portfolio h1{
+    align-self: flex-start;
+    margin-left: 80px;
+    font-size: 22px;
+    line-height: 60px;
+    }
+
+  .posts{
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .portfolio{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+  }
+  #blog-posts h1{
+    align-self: flex-start;
+    margin-left: 80px;
+    font-size: 22px;
+    line-height: 60px;
+    }
+  .portfolio-info{
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio__title{
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  .footer{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
 }

@@ -4,3 +4,21 @@
   display: flex;
   justify-content: flex-end;
 }
+.HeaderMenu__Items{
+  list-style: none;
+  display: none;
+  gap: 33px;
+  transition: all ease 600ms;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+@media (min-width: 992px){
+  .HeaderMenu__img{
+    display: none;
+  }
+  .HeaderMenu__Items{
+    display: flex;
+  }
+}

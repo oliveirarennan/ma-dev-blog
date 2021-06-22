@@ -11,9 +11,15 @@
     <header id="top-menu" class="container">
       <nav class="HeaderMenu">
         <img
+          class="HeaderMenu__img"
           src="/assets/icons/mobile-menu.svg"
           alt="Menu para dispositivos moveis"
         />
+        <ul class="HeaderMenu__Items">
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
@@ -24,56 +30,60 @@
           src="/assets/images/profile.png"
           alt="Dev profile picture"
         />
-        <h1 class="profile__title">
-          Hi, I am Rennan Oliveira, a Full Stack Developer
-        </h1>
+        <div class="profile-info">
+          <h1 class="profile__title">
+            Hi, I am Rennan Oliveira, a Full Stack Developer
+          </h1>
 
-        <p class="profile__text">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </p>
-        <a class="button" href="#">Download Resume</a>
+          <p class="profile__text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <a class="button" href="#">Download Resume</a>
+        </div>
       </div>
     </section>
 
     <section id="blog-posts">
       <h1>Blog posts</h1>
 
-      <div class="post">
-        <h2 class="post__title">How to use CSS Grid and Flexbox</h2>
+      <div class="posts">
+        <div class="post">
+          <h2 class="post__title">How to use CSS Grid and Flexbox</h2>
 
-        <div class="post__data">
-          <div class="post__data-time">12 Feb 2021</div>
-          <div class="post__data-pipe"></div>
-          <div class="post__data-tags">CSS, Front End</div>
+          <div class="post__data">
+            <div class="post__data-time">12 Feb 2021</div>
+            <div class="post__data-pipe"></div>
+            <div class="post__data-tags">CSS, Front End</div>
+          </div>
+
+          <div class="post__text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </div>
         </div>
 
-        <div class="post__text">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </div>
-      </div>
+        <div class="post">
+          <h2 class="post__title">I’m launching Maratonas Academy</h2>
 
-      <div class="post">
-        <h2 class="post__title">I’m launching Maratonas Academy</h2>
+          <div class="post__data">
+            <div class="post__data-time">12 Jun 2021</div>
+            <div class="post__data-pipe"></div>
+            <div class="post__data-tags">Startup, EdTech</div>
+          </div>
 
-        <div class="post__data">
-          <div class="post__data-time">12 Jun 2021</div>
-          <div class="post__data-pipe"></div>
-          <div class="post__data-tags">Startup, EdTech</div>
-        </div>
-
-        <div class="post__text">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
+          <div class="post__text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="portfolio">
+    <section id="portfolio" class="container">
       <h1>Portfolio</h1>
 
       <div class="portfolio">
@@ -82,19 +92,21 @@
           alt="Portfolio 1"
           class="portfolio__img"
         />
-        <h2 class="portfolio__title">Hub Maratonas Academy</h2>
-        <div class="portfolio__data">
-          <div class="portfolio__data-time">2021</div>
-          <div class="portfolio__data-type">Web App</div>
-        </div>
-        <div class="portfolio__text">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </div>
 
-        <div class="portfolio__divider"></div>
+        <div class="portfolio-info">
+          <h2 class="portfolio__title">Hub Maratonas Academy</h2>
+          <div class="portfolio__data">
+            <div class="portfolio__data-time">2021</div>
+            <div class="portfolio__data-type">Web App</div>
+          </div>
+          <div class="portfolio__text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </div>
+        </div>
       </div>
+      <div class="portfolio__divider"></div>
     </section>
 
     <section id="social-menu">

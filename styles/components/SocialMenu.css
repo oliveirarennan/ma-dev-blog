@@ -5,3 +5,14 @@
   align-items: center;
   justify-content: space-evenly;
 }
+
+@media (min-width: 992px) {
+  .SocialMenu{
+    justify-content: center;
+    gap: 35px;
+  }
+  .SocialMenu img{
+    width: 35px;
+    height: 30px;
+  }
+}

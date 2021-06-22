@@ -30,5 +30,13 @@
   margin-top: 20px;
   line-height: 1.4375rem;
   color: var(--text-primary);
+}
 
+@media (min-width: 992px) {
+  .post{
+    width: 418px;
+  }
+  .post__text{
+   width: 368px;
+  }
 }
